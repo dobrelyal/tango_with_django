@@ -16,6 +16,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^rango/', include('rango.urls')), # ADD THIS NEW TUPLE!
+    url(r'^rango/about/', include('rango.urls')),
 )
 
 # UNDERNEATH your urlpatterns definition, add the following two lines:
